@@ -7,7 +7,7 @@ const Card = ({ ticket }) => {
             <h4>{ticket.title}</h4>
             <div className="card-footer">
                 <span></span>
-                <p>{ticket.tag}</p></div>
+                <p className="tag">{ticket.tag}</p></div>
         </div>
     );
 };
